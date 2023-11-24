@@ -9,10 +9,10 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #5361FF;
-    --white-color: #FAFAFF;
-    --dark-color: #2A3B47;
-    --text-color: #697477;
+    --first-color: #7697A0;
+    --white-color: #DDDDDA;
+    --dark-color: #4A707A;
+    --text-color: #a9a9a9;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -207,7 +207,8 @@ img{
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: inherit;
+    height: inherit;
 }
 
 /* ===== ABOUT =====*/
@@ -379,6 +380,8 @@ img{
 /* For small devices */
 @media screen and (max-width: 320px) {
   .home__img {
+    right: 0;
+    bottom: 0;
     width: 230px;
   }
 }
@@ -428,7 +431,7 @@ img{
     }
     .home__img{
         width: 524px;
-        right: 10%;
+        right: 0;
     }
 
     .about__container{
@@ -483,7 +486,7 @@ img{
         height: 640px;
     }
     .home__img {
-        width: 500px;
+        width: auto;
         right: 24%;
     }
 }
