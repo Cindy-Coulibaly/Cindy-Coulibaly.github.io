@@ -1,8 +1,5 @@
 # Cindy's Portfolio
-
-Hi this is Cindy and this is my portfolio about my time in John Abbott College in the Computer science program.
-
-In this portfolio you will get to know me and the different project I worked on during these pass 3 years.
+Hello, I'm Cindy, and welcome to my portfolio showcasing my journey through the Computer Science program at John Abbott College. Within these pages, you'll have the opportunity to learn more about me and explore the various projects I've had the privilege of working on over the past three years.
 
 
 ![preview img](/assets/img/preview.png)
