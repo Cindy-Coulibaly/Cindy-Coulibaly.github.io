@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Cindy's portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("./Layout/header.html");
+            $("#footer").load("./Layout/footer.html");
+            $("#portfolio").load("/assets/pages/PortfolioContent.html");
+            $("#contact").load("/assets/pages/ContactContent.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="/index.html" class="nav__logo">Cindy Coulibaly</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/index.html" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="/assets/pages/Hobbies.html" class="nav__link">Hobbies</a></li>
+                    <li class="nav__item"><a href="/assets/pages/Portfolio.html" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="/assets/pages/Contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--===== About ME =====-->
+    <section class="about section" id="about">
+        <h2 class="section-title">ABout Me</h2>
+
+        <div class="about__container bd-grid">
+
+            <img src="/assets/img/perfil.jpeg" alt="">
+
+
+            <div>
+                <h2 class="about__subtitle">Hi, I'm Cindy Coulibaly</h2>
+                <span class="about__profession">to be sotware developer</span>
+                <p class="about__text">Hi, my name is Cindy Coulibaly, I'm 19 year and I'm a computer science student at John Abbott College.
+                    I got into computer science because I watched a movie called:  The intership when I was younger and I really liked it, and I thought, why not
+                    because a software developer. Well I didn't know much about computer's at that time, since I was around 9 years old, but when I set my mind to
+                    do something I don't go back. 
+                    <br/><br/>
+                    Except coding and computers, I really like painting and reading/ collection book. I've been painting and doing all sorts of craft since I was young
+                    because my mom really likes painting and turns out I like it too so we often pain together. If you want to see more of my painting you can go in the 
+                    hobbies section where I've put some of my paintings and drawings.
+
+                    I also like collecting and reading books especially, fantasy and romance books you can also see part of my collection the the hobbies section.
+
+                    <br/><br/>
+                    Also, I used to play various sport, especially when I was in highschool I was in the VolleyBall team. But I also played other sports outside
+                    of school like badminton and boxing.
+
+                </p>
+
+                <div class="about__social">
+                    <a href="https://www.linkedin.com/in/cindy-coulibaly-93543b294/" class="about__social-icon"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Cindy-Coulibaly/Cindy-Coulibaly.github.io" class="about__social-icon"><i
+                            class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
