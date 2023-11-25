@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Cindy's portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/Layout/header.html");
+            $("#footer").load("/Layout/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <section class="about section" id="about">
+        <h2 class="section-title">CV</h2>
+
+        <div class="about__container bd-grid">
+            
+
+            <div>
+                <p class="about__text">Hi if you liked my Portfolio and will like to know what other stuff I've worked on here is my CV</p>
+
+                <div class="about__social">
+                    <a href="https://www.linkedin.com/in/cindy-coulibaly-93543b294/" class="about__social-icon"><i
+                            class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Cindy-Coulibaly/Cindy-Coulibaly.github.io"
+                        class="about__social-icon"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <embed src="/assets/CV/CoulibalyCindy.pdf" width="400px" height="1050px" id="CV"  />
+        </div>
+    </section>
+
+    <div id="footer"></div>
+</body>
+</html>
