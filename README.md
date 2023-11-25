@@ -1,13 +1,9 @@
-# Responsive Personal Portfolio Website
-## [Watch it on youtube](https://youtu.be/6cidbUHNZRQ)
-### Responsive Personal Portfolio Website
+# Cindy's Portfolio
 
-- Responsive Personal Portfolio Website Using HTML CSS And JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+Hi this is Cindy and this is my portfolio about my time in John Abbott College in the Computer science program.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+In this portfolio you will get to know me and the different project I worked on during these pass 3 years.
 
-![preview img](/preview.png)
+
+![preview img](/assets/img/preview.png)
+[Template](https://youtu.be/6cidbUHNZRQ) being used
