@@ -1,100 +1,106 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Cindy's portfolio</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <script>
-            $(function(){
-                $("#header").load("./Layout/header.html");
-                $("#footer").load("./Layout/footer.html");
-                $("#portfolio").load("/assets/pages/PortfolioContent.html");
-            });
-        </script>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <div id="header"></div>
-        
+    <title>Cindy's portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("./Layout/header.html");
+            $("#footer").load("./Layout/footer.html");
+            $("#portfolio").load("/assets/pages/PortfolioContent.html");
+        });
+    </script>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+
+    <div id="header"></div>
 
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>Cindy</span> <span>Coulibaly</span></h1>
 
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
-                    </div>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>Cindy</span> <span>Coulibaly</span></h1>
 
-                    <!-- <img src="assets/img/background.jpg" alt="" class="home__img"> -->
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll down</a>
                 </div>
-            </section>
-            
-            <!--===== A little bit about this portfolio =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">A Little Bit About This Portfolio</h2>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <!-- Maybe put my Image-->
-                        <!-- <img src="assets/img/perfil.png" alt=""> -->
-                    </div>
+                <!-- <img src="assets/img/background.jpg" alt="" class="home__img"> -->
+            </div>
+        </section>
 
-                    <div>
-                        <h2 class="about__subtitle">Hi, I'm Cindy Coulibaly</h2>
-                        <span class="about__profession">to be sotware developer</span>
-                        <p class="about__text">Hi, my name is Cindy Coulibaly and this website is to used to be my portfolio
-                            There's several section in the portfolio, one where you get to know be more, which the about page, one about my various hobies
-                        one with all the different project I worked on during my 3 years in computer science at John abbott College and one about where you can contact me</p>
+        <!--===== A little bit about this portfolio =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">A Little Bit About This Portfolio</h2>
 
-                        <div class="about__social">
-                            <a href="https://www.linkedin.com/in/cindy-coulibaly-93543b294/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="https://github.com/Cindy-Coulibaly/Cindy-Coulibaly.github.io" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                        </div>
-                    </div>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <!-- Maybe put my Image-->
+                    <!-- <img src="assets/img/perfil.png" alt=""> -->
                 </div>
-            </section>
 
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <div>
+                    <h2 class="about__subtitle">Hi, I'm Cindy Coulibaly</h2>
+                    <span class="about__profession">to be sotware developer</span>
+                    <p class="about__text">Hi, my name is Cindy Coulibaly and this website is to used to be my portfolio
+                        There's several section in the portfolio, one where you get to know be more, which the about
+                        page, one about my various hobies
+                        one with all the different project I worked on during my 3 years in computer science at John
+                        abbott College and one about where you can contact me</p>
 
-                <div class="skills__container bd-grid">
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Development</h3>
-                        <span class="skills__name">Html</span>
-                        <span class="skills__name">Css</span>
-                        <span class="skills__name">Javascript</span>
-                        <span class="skills__name">Scss</span>
-                        <span class="skills__name">React</span>
-                        <span class="skills__name">Vue</span>
-                        
-                        <h3 class="skills__subtitle">Design</h3>
-                        <span class="skills__name">Figma</span>
-                        <span class="skills__name">Adobe XD</span>
-                        <span class="skills__name">Photoshop</span>
-                    </div>
-
-                    <div class="skills__img">
-                        <img src="assets/img/skill.jpg" alt="">
+                    <div class="about__social">
+                        <a href="https://www.linkedin.com/in/cindy-coulibaly-93543b294/" class="about__social-icon"><i
+                                class='bx bxl-linkedin'></i></a>
+                        <a href="https://github.com/Cindy-Coulibaly/Cindy-Coulibaly.github.io"
+                            class="about__social-icon"><i class='bx bxl-github'></i></a>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--===== PORTFOLIO =====-->
-            <div id="portfolio"></div>
-            <!-- <section class="portfolio section" id="portfolio">
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">Html</span>
+                    <span class="skills__name">Css</span>
+                    <span class="skills__name">Javascript</span>
+                    <span class="skills__name">Scss</span>
+                    <span class="skills__name">React</span>
+                    <span class="skills__name">Vue</span>
+
+                    <h3 class="skills__subtitle">Design</h3>
+                    <span class="skills__name">Figma</span>
+                    <span class="skills__name">Adobe XD</span>
+                    <span class="skills__name">Photoshop</span>
+                </div>
+
+                <div class="skills__img">
+                    <img src="assets/img/skill.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--===== PORTFOLIO =====-->
+        <div id="portfolio"></div>
+        <!-- <section class="portfolio section" id="portfolio">
                 <h2 class="section-title">Portfolio</h2>
 
                 <div class="portfolio__container bd-grid">
@@ -143,33 +149,34 @@
                 </div>
             </section> -->
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
 
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">cindy.coulibaly@gmail.com</span>
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">cindy.coulibaly@gmail.com</span>
 
-                        <h3 class="contact__subtitle">PHONE</h3>
-                        <span class="contact__text">+1 438-395-4128</span>
+                    <h3 class="contact__subtitle">PHONE</h3>
+                    <span class="contact__text">+1 438-395-4128</span>
 
-                        <h3 class="contact__subtitle">ADRESS</h3>
-                        <span class="contact__text">Canada, Qc. Vaudreuil-Dorion</span>
-                    </div>
-
+                    <h3 class="contact__subtitle">ADRESS</h3>
+                    <span class="contact__text">Canada, Qc. Vaudreuil-Dorion</span>
                 </div>
-            </section>
-        </main>
 
-        <!--===== FOOTER =====-->
-        <div id="footer"></div>
+            </div>
+        </section>
+    </main>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== FOOTER =====-->
+    <div id="footer"></div>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>
