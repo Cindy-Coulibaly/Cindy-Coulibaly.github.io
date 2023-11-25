@@ -15,6 +15,7 @@
         $(function(){
             $("#header").load("/Layout/header.html");
             $("#footer").load("/Layout/footer.html");
+            $("#Content").load("/assets/pages/PortfolioContent.html");
         });
     </script>
 </head>
@@ -24,49 +25,9 @@
     <div id="header"></div>
 
 <!--===== PORTFOLIO =====-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section-title">Portfolio</h2>
+<div id="Content"></div>
 
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__img">
-                        <img src="/assets/img/work1.jpg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="./Projects/ToKillAMaster.html" class="portfolio__link-name">To Serve A Master: Game</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="/assets/img/work2.jpg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="./Projects/BudgetApp.html" class="portfolio__link-name">Budget App</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="/assets/img/work3.jpg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="./Projects/HabitMinder.html" class="portfolio__link-name">Habit Tracker</a>
-                        </div>
-                    </div>
-                    <div class="portfolio__img">
-                        <img src="/assets/img/work4.jpg" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="#" class="portfolio__link-name">Vending Machine</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== HEADER =====-->
-
-            <div id="footer"></div>
-            <!--===== SCROLL REVEAL =====-->
-            <script src="https://unpkg.com/scrollreveal"></script>
-
-            <!--===== MAIN JS =====-->
-            <script src="../../assets/js/main.js"></script>
+<div id="footer"></div>
     
 </body>
 </html>
