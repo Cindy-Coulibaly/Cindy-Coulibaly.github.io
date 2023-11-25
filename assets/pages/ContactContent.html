@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Cindy's portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/Layout/header.html");
+            $("#footer").load("/Layout/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+            <div class="contact__info">
+                <h3 class="contact__subtitle">EMAIL</h3>
+                <span class="contact__text">cindy.coulibaly@gmail.com</span>
+
+                <h3 class="contact__subtitle">PHONE</h3>
+                <span class="contact__text">+1 438-395-4128</span>
+
+                <h3 class="contact__subtitle">ADRESS</h3>
+                <span class="contact__text">Canada, Qc. Vaudreuil-Dorion</span>
+            </div>
+
+        </div>
+    </section>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+</body>
+</html>
